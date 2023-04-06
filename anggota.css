@@ -102,7 +102,7 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./foto/ppg8.jpg") no-repeat center;
+    background: url("./foto/ppg7.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -744,9 +744,6 @@ footer span a:hover{
         width: 100%;
     }
     /* form */
-    .wrapper{
-        margin-left: 0%;
-    }
     .wrapper header{
         text-align: center;
       }
@@ -770,10 +767,10 @@ footer span a:hover{
         flex-direction: column;
       }
       .button-area button{
-        width: 130%;
+        width: 135%;
         padding: 11px 0;
         font-size: 16px;
-        margin-left: 16%;
+        margin-left: 11%;
       }
       .button-area span{
         margin: 20px 0 0;

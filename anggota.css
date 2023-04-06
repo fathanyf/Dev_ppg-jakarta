@@ -666,6 +666,7 @@ footer span a:hover{
     .menu-btn{
         display: block;
         z-index: 999;
+        color: #333;
     }
     .menu-btn i.active::before{
         content: "\f00d";

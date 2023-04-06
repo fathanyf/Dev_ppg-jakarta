@@ -61,26 +61,36 @@
         <div class="max-width">
             <div class="slideshow-container">
 
-                <div class="slides">
-                    <div class="slide">
-                      <img src="./foto/ppg5.jpeg" alt="" height="400px" width="400px">
-                      <div class="cap-text">Terbang Paramotor</div>
-                    </div>
-                    <div class="slide">
-                      <img src="./foto/ppg4.jpeg" alt="" height="400px" width="400px">
-                      <div class="cap-text">Selfie di Paramotor</div>
-                    </div>
-                    <div class="slide">
-                      <img src="./foto/ppg3.jpeg" alt="" height="400px" width="400px">
-                      <div class="cap-text">Pengibaran Bendera Merah Putih dengan Paramotor</div>
-                    </div>
-                    <div class="navigation">
-                      <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
-                      <a class = "next" onclick = "plusSlides(-1)">&#10095;</a>
-                    </div>
-                  </div>    
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="./foto/ppg3.jpeg" style="width:100%">
+                  <div class="text">Pengibaran Merah Putih dengan Paramotor</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="./foto/ppg4.jpeg" style="width:100%">
+                  <div class="text">Selfie di dalam Paramotor</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="./foto/ppg5.jpeg" style="width:100%">
+                  <div class="text">Terbang Paramotor</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
             </div>
-            
+
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
         </div>
     </section>
 

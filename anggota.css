@@ -128,10 +128,10 @@ html{
 
 }
 .home .home-content .text-2{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -10px;
-    margin-top: -2%;
+    margin-top: -25%;
     padding-left: 1%;
     text-shadow: 1px 2px 4px black;
 }
@@ -449,7 +449,7 @@ section{
     width: 90%;
 }
 .skills{
-    height: 90vh;
+    height: 65vh;
 }
 
 /* contact section styling */
@@ -517,6 +517,7 @@ section{
     /* box-shadow: 10px 10px 10px rgba(0,0,0,0.05); */
     border: #111 2px solid;
     margin-left: 18%;
+    margin-top: -5%;
   }
   .wrapper header{
     font-size: 22px;
@@ -631,6 +632,7 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
+    margin-top: -5%;
 }
 footer span a{
     color: c#005eff;
@@ -728,11 +730,26 @@ footer span a:hover{
     }
 }
 @media (max-width: 767px) {
+    nav{
+        margin-top: 10%;
+    }
     .max-width{
         padding: 0 23px;
     }
+    .home{
+        display: flex;
+        background: url("./foto/ppg7.jpg") no-repeat center blur(100px);
+        height: 10vh !important;
+        color: #fff;
+        background-size: contain;
+        background-position: left 110px ;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: -10%;
+        }
     .home .home-content .text-2{
         font-size: 60px;
+        margin-top: 30%;
     }
     .home .home-content .text-3{
         font-size: 32px;
@@ -742,6 +759,9 @@ footer span a:hover{
     .skills .skills-content .column,
     .porto .skills-content .column{
         width: 100%;
+    }
+    .filling{
+        height: 30vh !important;
     }
     /* form */
     .wrapper header{
@@ -778,6 +798,12 @@ footer span a:hover{
       }
       .home .home-content{
         margin-top: 30%;
+    }
+    footer{
+        background: #111;
+        padding: 20px 23px;
+        color: #fff;
+        margin-top: -20%;
     }
 }
 @media (max-width: 500px) {
